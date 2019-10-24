@@ -1,0 +1,5 @@
+web: vendor/bin/heroku-php-apache2
+
+location ^~ /.well-known/acme-challenge/ {
+    allow all;
+}
